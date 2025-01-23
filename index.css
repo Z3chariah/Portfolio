@@ -39,6 +39,54 @@ li a{
 
 }
 
+
+.icons{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    height: 400px;
+    margin-left: 0%;
+    
+}
+
+.icon1{
+    padding-left: 90px;
+
+}
+
+.icon2{
+    padding-left: 62px;
+}
+.icon3{
+    padding-left: 90px;
+}
+
+.icons img {
+    box-shadow: 0.9px .3px 12px #B68B4B;
+}
+
+.image{
+    background: #B68B4B;
+    border-radius: 560px;
+    box-shadow: 4px 8px 20px #B68B4B;
+    animation: rotatingUnderlight;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    padding: 0%;
+    margin-right: 0%;
+
+}
+
+
+.image:hover{
+    transform: scale(1.3);
+
+}
+
+
 .skills{
     display: flex;
     justify-content: center;
@@ -52,7 +100,7 @@ li a{
     border-radius: 7px;
     padding-left: 15px;
     padding-right: 15px;
-;
+
 
 }
 
@@ -61,24 +109,12 @@ li a{
   
 }
 
-.image{
-    background: #B68B4B;
-    border-radius: 560px;
-    box-shadow: 4px 8px 20px #B68B4B;
-    animation: rotatingUnderlight;
-    animation-iteration-count: infinite;
-    animation-duration: 4s;
-    animation-direction: alternate-reverse;
-
-}
 
 
-.image:hover{
-    transform: scale(1.3);
    
   
    
-}
+
 
 
 h2{
@@ -132,8 +168,11 @@ p{
 }
 
 
+
+
+
+
 @keyframes rotatingUnderlight{
 from{ box-shadow: 6px 8px 20px #B68B4B;}
 to {box-shadow: -6px -9px 20px #B68B4B;}
 }
-
