@@ -62,11 +62,12 @@ li a{
 }
 
 .image{
-    border-radius: 500px;
+    background: #B68B4B;
+    border-radius: 560px;
     box-shadow: 4px 8px 20px #B68B4B;
     animation: rotatingUnderlight;
     animation-iteration-count: infinite;
-    animation-duration: 6s;
+    animation-duration: 4s;
     animation-direction: alternate-reverse;
 
 }
@@ -132,7 +133,7 @@ p{
 
 
 @keyframes rotatingUnderlight{
-from{ box-shadow: 4px 8px 20px #B68B4B;}
-to {box-shadow: -4px -9px 20px #B68B4B;}
+from{ box-shadow: 6px 8px 20px #B68B4B;}
+to {box-shadow: -6px -9px 20px #B68B4B;}
 }
 
