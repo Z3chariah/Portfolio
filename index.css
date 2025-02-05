@@ -1,0 +1,171 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: #202221;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style: none;
+}
+
+header li a {
+    text-decoration: none;
+    padding: 30px;
+    color: #b68b4b;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.card {
+    display: flex;
+}
+
+.card-content {
+    align-self: flex-end;
+}
+
+.icons {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    height: 400px;
+    margin-left: 0%;
+}
+.icon1 {
+    padding-left: 90px;
+}
+
+.icon2 {
+    padding-left: 62px;
+}
+.icon3 {
+    padding-left: 90px;
+}
+
+.icons img {
+    box-shadow: 0.9px 0.3px 12px #b68b4b;
+}
+.hero-pfp {
+    background: #b68b4b;
+    border-radius: 560px;
+    box-shadow: 4px 8px 20px #b68b4b;
+    animation: rotatingUnderlight;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    padding: 0%;
+    margin-right: 0.98%;
+}
+.hero-pfp:hover {
+    transform: scale(1.1);
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    background: #303531;
+    width: 75%;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.skills h4 {
+    padding: 10px;
+}
+h2 {
+    color: #b68b4b;
+}
+h3 {
+    color: #654922;
+}
+
+h4 {
+    color: #b68b4b;
+}
+
+p {
+    color: #b68b4b;
+}
+
+.Previous-Roles {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 0%;
+    background: #303531;
+    width: 75%;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    animation: flowIn;
+    animation-duration: 3s;
+}
+.Previous-Roles h3 {
+    color: #b68b4b;
+}
+@keyframes rotatingUnderlight {
+    from {
+        box-shadow: 6px 8px 20px #b68b4b;
+    }
+    to {
+        box-shadow: -6px -9px 20px #654922;
+    }
+}
+@keyframes flowIn {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 10%;
+    }
+}
+
+.Resume-T {
+    color: #654922;
+}
+
+.Services-T {
+    color: #654922;
+    opacity: 70%;
+}
+
+#toggle {
+    margin-top: auto;
+    background: transparent;
+    border: none;
+}
+.Resume {
+    background: #303531;
+    border-radius: 7px;
+
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 4px 4px 20px;
+    color: #b68b4b;
+    animation: rotatingUnderlight;
+    animation-iteration-count: infinite;
+    animation-duration: 3.8s;
+    animation-direction: alternate-reverse;
+}
