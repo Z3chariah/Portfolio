@@ -14,6 +14,8 @@ trackSheetSwitch = (toggle) => {
       "my team has run month long campaigns on Instagram, Facebook, and Twitter that has increased impressions by up to 30%";
 
     document.getElementById("resume-content2").style = "margin-bottom: 2.3%";
+    document.getElementById("toggle").style = "opacity: 120%";
+    document.getElementById("toggle1").style = "opacity: 20%";
   } else {
     document.getElementById("resume-content2").style = "padding-right 90.3%";
     document.getElementById("resume-content2").style = "margin-right 5.3%";
@@ -90,5 +92,7 @@ trackSheetSwitch = (toggle) => {
       "Developed article writing guidelines and learning courses";
 
     document.getElementById("resume-content2").appendChild(experience2);
+    document.getElementById("toggle1").style = "opacity: 120%";
+    document.getElementById("toggle").style = "opacity: 20%";
   }
 };

@@ -25,6 +25,7 @@ header li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
     flex-direction: column;
     min-height: 100vh;
 }
@@ -143,17 +144,27 @@ p {
 
 .Resume-T {
     color: #654922;
+    opacity: 120%;
 }
 
 .Services-T {
     color: #654922;
-    opacity: 70%;
+}
+
+.toggle {
+    margin-top: auto;
+    display: flex;
 }
 
 #toggle {
-    margin-top: auto;
     background: transparent;
     border: none;
+    opacity: 20%;
+}
+#toggle1 {
+    background: transparent;
+    border: none;
+    opacity: 20%;
 }
 .Resume {
     background: #303531;
