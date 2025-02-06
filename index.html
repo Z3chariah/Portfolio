@@ -9,10 +9,12 @@
         <link rel="stylesheet" href="index.css" />
         <header>
             <ul>
+                <hr style="width: 15px" />
+                <li><a id="homePage" href="index.html">Home</a></li>
+
                 <li><a href="Btn">Resume</a></li>
                 <li><a href="Btn">Services</a></li>
-                <li><a href="Btn">Products</a></li>
-                <li><a href="Btn">Home</a></li>
+                <li><a href="Btn">Production Pipeline</a></li>
             </ul>
         </header>
 
@@ -20,19 +22,30 @@
             <div class="card">
                 <div class="icons">
                     <div class="icon1">
-                        <img width="30px" height="27" src="instagram.png" />
+                        <img
+                            align="left"
+                            width="30px"
+                            style="padding-right: 10px"
+                            src="imgs/linkedin.png"
+                        />
                     </div>
                     <div class="icon2">
                         <img
                             width="30px"
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                            align="left"
+                            width="30px"
+                            style="padding-right: 10px"
+                            src="imgs/github.png"
                         />
                     </div>
                     <div class="icon3">
                         <img
                             width="30px"
                             height="27"
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                            align="left"
+                            width="30px"
+                            style="padding-right: 10px"
+                            src="imgs/play.png"
                         />
                     </div>
                 </div>
@@ -40,7 +53,7 @@
                 <div class="hero-pfp">
                     <img
                         style="height: 450px; border-radius: 500px"
-                        src="Elijah Powell.png"
+                        src="imgs/Elijah Powell.png"
                         alt=""
                     />
                 </div>
@@ -82,24 +95,25 @@
                 </div>
             </div>
 
-<div class="toggle">
-            <button id="toggle" onclick="trackSheetSwitch(0)">
+            <div class="toggle">
+                <button id="toggle" onclick="trackSheetSwitch(0)">
+                    <div class="Services-T">
+                        <h1>Services</h1>
+                    </div>
+                </button>
 
-            <div class="Services-T">
-            <h1>Services</h1>
+                <button id="toggle1" onclick="trackSheetSwitch(1)">
+                    <div class="Resume-T">
+                        <h1>Resume</h1>
+                    </div>
+                </button>
             </div>
-            </button>
-
-           <button id="toggle1" onclick="trackSheetSwitch(1)">
-            <div class="Resume-T">
-                <h1>Resume</h1>
-            </div>
-           </button>
-</div>
 
             <div class="Resume">
                 <div class="resume-item1">
-                    <h3 id="role_header1">Head of Educational Content -- KOI, Los Angeles</h3>
+                    <h3 id="role_header1">
+                        Head of Educational Content -- KOI, Los Angeles
+                    </h3>
                     <div class="resume-content" id="resume-content">
                         <ul>
                             <li>
@@ -138,27 +152,37 @@
                     </div>
                 </div>
                 <div class="resume-item1">
-
-                    <h3 id="role_header2">Chairman of Biomedical Engineering -- Engineering Pivot, International</h3>
+                    <h3 id="role_header2">
+                        Chairman of Biomedical Engineering -- Engineering Pivot,
+                        International
+                    </h3>
                     <div class="resume-content" id="resume-content2">
                         <ul>
                             <li>
-                                Mentoring students for their non-scholarly research ventures, this entailed me overseeing 1k+ students globally
+                                Mentoring students for their non-scholarly
+                                research ventures, this entailed me overseeing
+                                1k+ students globally
                             </li>
                             <li>
-                                led the peer review process, and organized virtual conferences led by my colleagues, to showcase current research and discuss relevant areas for future research ventures.
+                                led the peer review process, and organized
+                                virtual conferences led by my colleagues, to
+                                showcase current research and discuss relevant
+                                areas for future research ventures.
                             </li>
                             <li>
-                                The papers written by the committee were viewed over 60k times
+                                The papers written by the committee were viewed
+                                over 60k times
                             </li>
                             <li>
-                                Developed article writing guidelines and learning courses
+                                Developed article writing guidelines and
+                                learning courses
                             </li>
                         </ul>
                     </div>
                 </div>
-
+            </div>
         </div>
+
         <script src="index.js"></script>
     </body>
 </html>

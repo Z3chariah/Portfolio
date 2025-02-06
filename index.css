@@ -1,7 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    background: #202221;
+    background: #171717;
 }
 
 header {
@@ -19,7 +19,7 @@ header li {
 header li a {
     text-decoration: none;
     padding: 30px;
-    color: #b68b4b;
+    color: #9ba8ab;
 }
 .card-container {
     display: flex;
@@ -57,16 +57,13 @@ header li a {
     padding-left: 90px;
 }
 
-.icons img {
-    box-shadow: 0.9px 0.3px 12px #b68b4b;
-}
 .hero-pfp {
-    background: #b68b4b;
+    background: #484848;
     border-radius: 560px;
-    box-shadow: 4px 8px 20px #b68b4b;
+    box-shadow: 4px 8px 20px #484848;
     animation: rotatingUnderlight;
     animation-iteration-count: infinite;
-    animation-duration: 4s;
+    animation-duration: 2.7s;
     animation-direction: alternate-reverse;
     padding: 0%;
     margin-right: 0.98%;
@@ -81,7 +78,7 @@ header li a {
     flex-wrap: wrap;
     margin-top: 35px;
     background: #303531;
-    width: 75%;
+    width: 85%;
     margin-left: 35px;
     margin-right: 35px;
     border-radius: 20px;
@@ -92,18 +89,18 @@ header li a {
     padding: 10px;
 }
 h2 {
-    color: #b68b4b;
+    color: #9ba8ab;
 }
 h3 {
-    color: #654922;
+    color: #9ba8ab;
 }
 
 h4 {
-    color: #b68b4b;
+    color: #9ba8ab;
 }
 
 p {
-    color: #b68b4b;
+    color: #9ba8ab;
 }
 
 .Previous-Roles {
@@ -113,24 +110,24 @@ p {
     flex-wrap: wrap;
     margin-top: 0%;
     background: #303531;
-    width: 75%;
+    width: 85%;
     margin-left: 35px;
     margin-right: 35px;
-    border-radius: 7px;
+    border-radius: 15px;
     padding-left: 15px;
     padding-right: 15px;
     animation: flowIn;
     animation-duration: 3s;
 }
 .Previous-Roles h3 {
-    color: #b68b4b;
+    color: #e1e1e1;
 }
 @keyframes rotatingUnderlight {
     from {
-        box-shadow: 6px 8px 20px #b68b4b;
+        box-shadow: 6px 8px 20px #e1e1e1;
     }
     to {
-        box-shadow: -6px -9px 20px #654922;
+        box-shadow: -6px -9px 20px #666666;
     }
 }
 @keyframes flowIn {
@@ -142,13 +139,15 @@ p {
     }
 }
 
+
+
 .Resume-T {
-    color: #654922;
+    color: #ccd0cf;
     opacity: 120%;
 }
 
 .Services-T {
-    color: #654922;
+    color: #ccd0cf;
 }
 
 .toggle {
@@ -169,14 +168,13 @@ p {
 .Resume {
     background: #303531;
     border-radius: 7px;
-
     margin-bottom: 30px;
     padding-left: 20px;
+    width: 67%;
     padding-right: 20px;
     box-shadow: 4px 4px 20px;
-    color: #b68b4b;
+    color: #ccd0cf;
     animation: rotatingUnderlight;
     animation-iteration-count: infinite;
     animation-duration: 3.8s;
     animation-direction: alternate-reverse;
-}

@@ -15,7 +15,7 @@ trackSheetSwitch = (toggle) => {
 
     document.getElementById("resume-content2").style = "margin-bottom: 2.3%";
     document.getElementById("toggle").style = "opacity: 120%";
-    document.getElementById("toggle1").style = "opacity: 20%";
+    document.getElementById("toggle1").style = "opacity: 5%";
   } else {
     document.getElementById("resume-content2").style = "padding-right 90.3%";
     document.getElementById("resume-content2").style = "margin-right 5.3%";
@@ -93,6 +93,6 @@ trackSheetSwitch = (toggle) => {
 
     document.getElementById("resume-content2").appendChild(experience2);
     document.getElementById("toggle1").style = "opacity: 120%";
-    document.getElementById("toggle").style = "opacity: 20%";
+    document.getElementById("toggle").style = "opacity: 5%";
   }
 };
