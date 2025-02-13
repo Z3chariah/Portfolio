@@ -1,5 +1,5 @@
 trackSheetSwitch = (toggle) => {
-  if (toggle == 0) {
+  if (toggle == 1) {
     document.getElementById("role_header1").textContent = "Consulting";
 
     document.getElementById("resume-content").innerHTML = "p";
@@ -14,8 +14,8 @@ trackSheetSwitch = (toggle) => {
       "my team has run month long campaigns on Instagram, Facebook, and Twitter that has increased impressions by up to 30%";
 
     document.getElementById("resume-content2").style = "margin-bottom: 2.3%";
-    document.getElementById("toggle").style = "opacity: 120%";
-    document.getElementById("toggle1").style = "opacity: 5%";
+    document.getElementById("toggle").style = "opacity: 140%";
+    document.getElementById("toggle1").style = "opacity: 10%";
   } else {
     document.getElementById("resume-content2").style = "padding-right 90.3%";
     document.getElementById("resume-content2").style = "margin-right 5.3%";
@@ -92,7 +92,7 @@ trackSheetSwitch = (toggle) => {
       "Developed article writing guidelines and learning courses";
 
     document.getElementById("resume-content2").appendChild(experience2);
-    document.getElementById("toggle1").style = "opacity: 120%";
-    document.getElementById("toggle").style = "opacity: 5%";
+    document.getElementById("toggle1").style = "opacity: 140%";
+    document.getElementById("toggle").style = "opacity: 10%";
   }
 };

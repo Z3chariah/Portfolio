@@ -1,7 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    background: #171717;
+    background: #ccd0cf;
 }
 
 header {
@@ -14,6 +14,7 @@ header ul {
 
 header li {
     list-style: none;
+
 }
 
 header li a {
@@ -21,6 +22,7 @@ header li a {
     padding: 30px;
     color: #9ba8ab;
 }
+
 .card-container {
     display: flex;
     justify-content: center;
@@ -63,7 +65,7 @@ header li a {
     box-shadow: 4px 8px 20px #484848;
     animation: rotatingUnderlight;
     animation-iteration-count: infinite;
-    animation-duration: 2.7s;
+    animation-duration:2.56s;
     animation-direction: alternate-reverse;
     padding: 0%;
     margin-right: 0.98%;
@@ -87,20 +89,21 @@ header li a {
 }
 .skills h4 {
     padding: 10px;
+    color: #9ba8ab;
 }
 h2 {
-    color: #9ba8ab;
+    color: #171717;
 }
 h3 {
     color: #9ba8ab;
 }
 
 h4 {
-    color: #9ba8ab;
+    color: #171717;
 }
 
 p {
-    color: #9ba8ab;
+    color: #171717;
 }
 
 .Previous-Roles {
@@ -124,10 +127,10 @@ p {
 }
 @keyframes rotatingUnderlight {
     from {
-        box-shadow: 6px 8px 20px #e1e1e1;
+        box-shadow: 9px 12px 20px #171717;
     }
     to {
-        box-shadow: -6px -9px 20px #666666;
+        box-shadow: -9px -12px 20px #343434;
     }
 }
 @keyframes flowIn {
@@ -142,12 +145,13 @@ p {
 
 
 .Resume-T {
-    color: #ccd0cf;
+    color: #171717;
     opacity: 120%;
 }
 
 .Services-T {
-    color: #ccd0cf;
+    color: #171717;
+    opacity: 120%;
 }
 
 .toggle {
@@ -155,11 +159,15 @@ p {
     display: flex;
 }
 
+
+
+
 #toggle {
     background: transparent;
     border: none;
     opacity: 20%;
 }
+
 #toggle1 {
     background: transparent;
     border: none;
